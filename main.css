@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Asap, sans-serif;
+}
+
+#clock {
+  font-size: 32vmin;
+  font-weight: bold;
+  text-align: center;
+}
+
+#clockds {
+  color: #555;
+  font-size: 50%;
+  font-weight: normal;
+}
+
+.progress {
+  height: 18vmin;
+  background-color: #333;
+}
+
+#ctrlbtns {
+  margin-top: 5vh;
+}
+
+.btn {
+  font-size: 5vmin;
+}
+
+@-webkit-keyframes timeup {
+  0% {
+    background-color: #000;
+  }
+  25% {
+    background-color: #000;
+  }
+  30% {
+    background-color: #f00;
+  }
+  70% {
+    background-color: #f00;
+  }
+  75% {
+    background-color: #000;
+  }
+  100% {
+    background-color: #000;
+  }
+}
